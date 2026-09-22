@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+#wrapper {
+    width: 1440px;
+    margin: auto;
+}
+
+
+
+#top {
+    background-color: #252525;
+    height: 24px;
+    width: 100%;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#top a {
+    color: #fff;
+}
+
+#top a:hover {
+    color: #f7641d;
+}
+
+#top_links {
+    margin-left: 115px;
+    float: left;
+}
+
+#top_info {
+    float: left;
+    margin-left: 220px;
+}
+
+
+
+#header {
+    height: 81px;
+    background-color: #fff;
+    width: 100%;
+    color: #000;
+}
+
+#header a {
+    color: #000;
+}
+
+#header a:hover {
+    color: #f7641d;
+}
+
+#header_left {
+    float: left;
+    margin-left: 144px;
+    padding-top: 34px;
+}
+
+#header_center {
+    float: left;
+    padding-left: 120px;
+}
+
+#header_right {
+    float: left;
+    margin-left: 120px;
+    padding-top: 34px;
+}
+
+
+
+#front_image {
+    background-image: url("Assets/mainPicture.jpg");
+    height: 582px;
+}
+
+
+
+#shop_now_button {
+    background-color: #f7641d;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    width: 196px;
+    height: 52px;
+    border: 0px;
+    position: relative;
+    top: 364;
+    left: 214px;
+    cursor: pointer;
+}
+
+
+
+.divider {
+    padding-left: 8px;
+    padding-right: 8px;
+}
